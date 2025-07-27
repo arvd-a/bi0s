@@ -8,3 +8,23 @@ Level 0-->1: ls, cat, pw; ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 Level 1-->2: ls, cat < - , pw; 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 Level 2-->3: ls, cat "spaces in this filename" , pw; MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
+Date : 26-07-2025
+Work done : Completed upto bandit level 15-->16
+Time spent : 4 hrs (excluding 2.5 hrs of all breaks in total)
+Blockers : Got stuck in level 16-->17, trying figure it out
+
+Level 3-->4: cd inhere, ls -a, cat "...Hiding-From-You", pw; 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+Level 4-->5: ls, cd inhere, ls, find . -type f -exec file {} \; | grep 'ASCII text' , pw; 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+Level 5-->6: ls, cd inhere, ls -la, file */{.,}* | grep "ASCII text" | grep -v ', with very long lines' , du -b -a | grep 1033 , file ./maybehere07/.file2 , find . -type f -size 1033c ! -executable -exec file '{}' \; | grep ASCII , pw; HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+Level 6-->7: ls -la , find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null , cat /var/lib/dpkg/info/bandit7.password , pw; morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Level 7-->8: ls -la , cat data.txt | grep millionth , pw; dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+Level 8-->9: ls -la , sort data.txt | uniq -u , pw; 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+Level 9-->10: ls -la , strings data.txt | grep === , pw; FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+Level 10-->11: ls -la , cat data.txt , base64 -d data.txt , pw; dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+Level 11-->12: ls , cat data.txt , cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' , pw; 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+Level 12-->13: ls , mktemp -d , cd /tmp/tmp.wrSfAtCv5I , cp ~/data.txt . , mv data.txt hexdup_data , cat hexdump_data | head , xxd -r hexdump_data compressed_data , mv compressed_data compressed_data.gz , xxd compressed_data , mv compressed_data compressed_data.bz2 , gzip -d compressed_data.gz , mv compressed_data compressed_data.tar , tar -xf compressed_data.tar , tar -xf data5.bin , xxd data6.bin , bzip2 -d data6.bin , xxd data8.bin , mv data8.bin data8.gz , gzip -d data8.gz , cat data8 , pw; FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+Level 13 -->14: ls , scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private , chmod 700 sshkey.private , ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+Level 14-->15: cat /etc/bandit_pass/bandit14 , MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS , pw; 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+Level 15-->16: openssl s_client -connect localhost:30001 , 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo , pw; kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
