@@ -7,7 +7,7 @@ Bandit Journey:
 Level 0-->1: ls, cat, pw; ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 Level 1-->2: ls, cat < - , pw; 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 Level 2-->3: ls, cat "spaces in this filename" , pw; MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Date : 26-07-2025
 Work done : Completed upto bandit level 15-->16
 Time spent : 4 hrs (excluding 2.5 hrs of all breaks in total)
@@ -28,3 +28,4 @@ Level 12-->13: ls , mktemp -d , cd /tmp/tmp.wrSfAtCv5I , cp ~/data.txt . , mv da
 Level 13 -->14: ls , scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private , chmod 700 sshkey.private , ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 Level 14-->15: cat /etc/bandit_pass/bandit14 , MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS , pw; 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 Level 15-->16: openssl s_client -connect localhost:30001 , 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo , pw; kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
